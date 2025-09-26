@@ -6,38 +6,35 @@ Customize Specific Date Cell In Month View Of Calendar Xamarin Ios
 
 * Visual Studio 2019 (Xamarin)
 
-## Supported platforms
+## Requirements to run the sample
 
-* Android
-* iOS
-* Windows (UWP)
+* [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+* [Windows App SDK 1.1 extension](https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-11)
+* .NET 6.0
 
-## How to run the project
+Refer to the following link for more details - [System Requirements](https://help.syncfusion.com/winui/system-requirements)
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2019.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+## How to run the sample
 
-## Xamarin.Forms Register License
+1. Clone the sample and open it in Visual Studio.
 
-You can register the license key in **App.xaml.cs** constructor before InitializeComponent(). If App constructor not available in **App.xaml.cs**, create the "App()" constructor in **App.xaml.cs** and register the license key inside the constructor.
+   *Note: If you download the sample using the "Download ZIP" option, right-click it, select Properties, and then select Unblock.*
 
-{% tabs %}
-{% highlight c# %}
-public App()
-{
-	//Register Syncfusion<sup>®</sup> license
-	Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
-	
-	InitializeComponent();
-	
-	MainPage = new App1.MainPage();
-}
-{% endhighlight %}
-{% endtabs %}
+2. Register your license key in the App.cs file as demonstrated in the following code.
 
-If you are developing an application using Gorilla Player SDK, it is must to register the Syncfusion<sup>®</sup> license key in Xamarin.Forms.Android, Xamarin.Forms.iOS, and Xamarin.Forms.UWP.
+        public App()
+        {
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
+
+            InitializeComponent();
+        }
+
+    Refer to this [link](https://help.syncfusion.com/winui/licensing/overview) for more details.
+
+3. Clean and build the application.
+
+4. Run the application.
 
 ## Blog reference
 
