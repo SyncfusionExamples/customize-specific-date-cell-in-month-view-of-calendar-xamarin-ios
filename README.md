@@ -12,7 +12,7 @@ Customize Specific Date Cell In Month View Of Calendar Xamarin Ios
 * [Windows App SDK 1.1 extension](https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-11)
 * .NET 6.0
 
-Refer to the following link for more details - [System Requirements](https://help.syncfusion.com/winui/system-requirements)
+Refer to the following link for more details - [System Requirements](https://help.syncfusion.com/xamarin/system-requirements)
 
 ## How to run the sample
 
@@ -30,7 +30,7 @@ Refer to the following link for more details - [System Requirements](https://hel
             InitializeComponent();
         }
 
-    Refer to this [link](https://help.syncfusion.com/winui/licensing/overview) for more details.
+    Refer to this [link](https://help.syncfusion.com/xamarin/licensing/overview) for more details.
 
 3. Clean and build the application.
 
@@ -39,7 +39,6 @@ Refer to the following link for more details - [System Requirements](https://hel
 ## Blog reference
 
 [View document in Syncfusion Xamarin.iOS Knowledge base](https://www.syncfusion.com/kb/12262/how-to-customize-the-specific-date-cell-in-month-view-of-xamarin-ios-calendar-sfcalendar)
-
 ## License
 
 Syncfusion has no liability for any damage or consequence that may arise from using or viewing the samples. The samples are for demonstrative purposes. If you choose to use or access the samples, you agree to not hold Syncfusion liable, in any form, for any damage related to use, for accessing, or viewing the samples. By accessing, viewing, or seeing the samples, you acknowledge and agree Syncfusion’s samples will not allow you seek injunctive relief in any form for any claim related to the sample. If you do not agree to this, do not view, access, utilize, or otherwise do anything with Syncfusion’s samples.
